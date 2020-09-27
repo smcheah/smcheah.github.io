@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600;800&display=swap');
 
 body {
-    background-image: url(ripples.png);
+    background-image: url(../images/ripples.png);
     font-family: 'Baloo Tamma 2';
 }
 h1 {
