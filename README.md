@@ -1,17 +1,19 @@
-# Portfolio
+# Simone's Portfolio
 
-## 2-3 Screenshots / gifs of the app
+![](https://media.giphy.com/media/RBlFKkJU5ENRk4nmbB/giphy.gif)
 
-## Deployed site link: https://smcheah.github.io/
+This is a portfolio of the projects I've built up and that I'd like to showcase
 
-## 1-2 sentences explaining what the app is
+## Deployed site link
+https://smcheah.github.io/
 
 ## List of technologies used
-A mobile responsive portfolio made with Bootstrap
-- a focus on using Bootstrap's grid system
-- responsive layout and images
-- use of semantic html and personalised information
+A mobile responsive portfolio showcasing individual and team projects
+- includes a brief bio and social media links
+- a list of clickable images or gifs to the deployed site of the app
 
-## License (usually MIT)
+## License
+[MIT License](https://github.com/smcheah/smcheah.github.io/blob/master/LICENSE)
 
-## Contact information for you and any collaborators
+## Contact information
+Email: simone_cheah@hotmail.com
