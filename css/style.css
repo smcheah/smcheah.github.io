@@ -81,6 +81,39 @@ main p {
     padding: 1%;
 }
 
+.index .profile-links {
+    display: flex;
+    border-radius: 10px;
+    border: white 2px solid;
+    width: 80%;
+    padding: 0 5px;
+    margin: 0 10%;
+    justify-content: space-evenly;flex-wrap: wrap;
+}
+
+.index .profile-links a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #4e4e4e;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    
+}
+
+.index .profile-links a i {
+    color: #4e4e4e;
+    font-size: 35px;
+    margin: 5px;
+}
+
+.index .profile-links a p {
+    padding: 0 4px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
 /* portfolio */
 .portfolio .content {
     display: flex;
@@ -89,7 +122,11 @@ main p {
 
 .portfolio .content div {
     padding: 15px;
-    width: 50%;
+    width: 100%;
+}
+
+.portfolio .content div p {
+    padding: 0 3px;
 }
 
 .portfolio .content div img {
@@ -101,7 +138,12 @@ main p {
 }
 
 /* contact */
-.inline-elements {
+.contact {
+    margin: 3% auto;
+    width: 100%;
+}
+
+.contact form .inline-elements {
     display: flex;
     justify-content: space-between;
 }
@@ -142,6 +184,13 @@ footer {
         margin: 3% 15%;
     }
 
+    .portfolio .content div {
+        padding: 15px;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
     .index div img {
         max-width: 300px;
     }
