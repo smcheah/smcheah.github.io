@@ -1,95 +1,111 @@
-/* font-family for entire website */
+/* font-family */
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600;800&display=swap');
 
 body,
 html {
+    display: flex;
     background-image: url(../images/ripples.png);
     font-family: 'Baloo Tamma 2';
-    display: flex;
     flex-direction: column;
     height: 100%;
 }
 
-/* text elements */
 h1 {
     padding: 1% 10px;
     margin: 0;
 }
 
-h1,
-p {
-    display: inline-flex;
-
-    background-color: #D4EDED;
-}
-
 /* nav elements */
 nav {
+    display: flex;
     flex: 0 1 auto;
     background-color: #F08080;
-    font-weight: bolder;
+    justify-content: center;
 }
 
-/* main content */
-/* .container {
-    min-height: 88.2vh;
+/* nav .nav-items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1450px;
+    font-weight: bolder;
+    justify-content: space-evenly;
 } */
 
+/* nav .nav-items h1 {
+    flex-grow: 1;
+    justify-self: center;
+} */
+
+/* main content */
 main {
     flex: 1 1 auto;
     background-color: #A8DADC;
-    margin: 5%;
     padding: 3%;
+    margin: 3% auto;
+}
+
+main h1,
+main p {
+    display: inline-flex;
+    background-color: #D4EDED;
 }
 
 /* about me */
 .index div {
-    display: grid;
-    grid-template-columns: auto auto;
-    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     margin: auto;
 }
 
 .index div img {
+    max-height: 300px;
+    width: 90%;
+    object-fit: cover;
+    align-self: center;
     border-radius: 10px;
-    max-width: 300px;
-    width: 100%;
-    min-width: 200px;
     margin: 3%;
 }
 
 .index div .content {
-    display: flex;
     flex-direction: column;
-    width: 100%;
-    margin: 1%;
+    margin: 3%;
+    max-width: 500px;
 }
 
 .index div .content p {
     border-radius: 10px;
-    max-width: 800px;
-    min-width: 200px;
     margin: 5px;
     padding: 1%;
 }
 
 /* portfolio */
-.portfolio .col-lg-6 {
-    margin: auto;
+.portfolio .content {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.portfolio img {
-    display: block;
-    padding: 15px 0;
+.portfolio .content div {
+    padding: 15px;
+    width: 50%;
+}
+
+.portfolio .content div img {
     width: 100%;
 }
 
+.portfolio .content div img:hover {
+    filter: blur(2px);
+}
+
+/* contact */
 .inline-elements {
     display: flex;
     justify-content: space-between;
 }
 
-/* contact */
 .contact button {
     background-color: #595959;
 }
@@ -99,10 +115,10 @@ main {
 }
 
 .social-icons i {
-    padding: 6px 0 0 15px;
-    font-size: 1.5em;
     color: #4e4e4e;
     text-decoration: none;
+    font-size: 1.5em;
+    padding: 6px 0 0 15px;
 }
 
 /* footer */
@@ -118,4 +134,15 @@ footer {
     flex: 0 1 auto;
     background-color: #F08080;
     padding: 5px;
+}
+
+@media screen and (min-width: 550px) {
+    main {
+        max-width: 1100px;
+        margin: 3% 15%;
+    }
+
+    .index div img {
+        max-width: 300px;
+    }
 }
