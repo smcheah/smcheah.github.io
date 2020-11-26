@@ -4,16 +4,16 @@
 
 ## Description <!-- omit in toc -->
 
-This is a portfolio of the projects I've built up and that I'd like to showcase
+This is a portfolio of the projects I've built up and contributed to, that I'd like to showcase
 
 ## Table of Contents
 
-- [Application](#deployed-site-link)
+- [Application](#deployed-site-link-link)
 - [Features & Technologies](#features--technologies-used-sparkles)
 - [License](#license-)
 - [Got questions?](#got-questions-thinking)
 
-## Deployed site link
+## Deployed site link 🔗
 
 https://smcheah.github.io/
 
