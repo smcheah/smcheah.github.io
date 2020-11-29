@@ -260,12 +260,10 @@ header li {
 	padding-bottom: 1.5%;
 	text-decoration: none;
 }
-.gallery-item .heading a:hover {
-	color: black;
-}
 .gallery-item a {
 	color: white;
 }
+.gallery-item .heading a:hover,
 .gallery-item a:hover {
 	color: var(--red-highlight);
 }
