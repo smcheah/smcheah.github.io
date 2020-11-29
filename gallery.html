@@ -5,79 +5,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand mt-1 ml-4" href="index.html">Simone Cheah</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-                <a class="nav-link mr-3 mt-1 ml-4" href="index.html">About</a>
-                <a class="nav-link mr-3 mt-1 ml-4 active" href="#">Portfolio</a>
-                <a class="nav-link mr-4 mt-1 ml-4" href="contact.html">Contact Me</a>
-            </div>
+<body class="gallery">
+    <!-- navigation bar -->
+    <nav id="page-top">
+        <div class="nav-items">
+            <a href="index.html" class="fas fa-igloo home"></a>
+            <!-- <a href="#design-sites">Design</a>
+            <a href="#technical-sites">Technical</a> -->
+            <button class="fas fa-bars ham"></button>
         </div>
     </nav>
 
     <!-- portfolio -->
-    <main class="portfolio">
-        <h1>Portfolio</h1>
-        <hr>
-        <div class="content">
-            <div>
-                <p>Weather Dashboard</p>
-                <a href="https://github.com/smcheah/Weather-Dashboard" target="_blank">
-                    <i class="fab fa-github-square"></i>
-                </a>
-                <a href="https://smcheah.github.io/Weather-Dashboard/" target="_blank"><img src="images/weather-dashboard.png" alt="Weather dashboard"></a>
+    <main class="gallery-list">
+        <div class="gallery-item">
+            <img src="images/weather-dashboard.png" alt="Weather dashboard">
+
+            <div class="content">
+                <div class="heading">
+                    <h2>Weather Dashboard</h2>
+                    <a href="https://github.com/smcheah/Weather-Dashboard" class="fab fa-github-square" target="_blank"></a>
+                </div>
+
+                <p>Last Updated: //</p>
+                <a href="product-description">Overview</a>
+                <a href="https://smcheah.github.io/Weather-Dashboard/" target="_blank">Site link</a>
             </div>
-            <div>
-                <p>project#0</p>
-                <a href="https://github.com/smcheah/project0" target="_blank">
-                    <i class="fab fa-github-square"></i>
-                </a>
-                <a href="https://smcheah.github.io/project0/" target="_blank"><img src="images/project0.gif" alt="Colorful Simone webpage"></a>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/project0.gif" alt="Colorful Simone text">
+
+            <div class="content">
+                <div class="heading">
+                    <h2>project#0</h2>
+                    <a href="https://github.com/smcheah/project0" class="fab fa-github-square" target="_blank"></a>
+                </div>
+
+                <p>Last Updated: //</p>
+                <a href="product-description">Overview</a>
+                <a href="https://smcheah.github.io/project0/" target="_blank">site link</a>
             </div>
-            <div>
-                <p>Bird Facts</p>
-                <a href="https://github.com/smcheah/project0" target="_blank">
-                    <i class="fab fa-github-square"></i>
-                </a>
-                <a href="https://smcheah.github.io/project0/birds.html" target="_blank"><img src="images/bird-facts.gif" alt="Bird facts website"></a>
-            </div>
-            <div>
-                <p>Code Quiz</p>
-                <a href="https://github.com/smcheah/Code-Quiz" target="_blank">
-                    <i class="fab fa-github-square"></i>
-                </a>
-                <a href="https://smcheah.github.io/Code-Quiz/" target="_blank"><img src="images/code-quiz.gif" alt="Code quiz example"></a>
-            </div>
-            <div>
-                <p>BandEaR</p>
-                <a href="https://github.com/smcheah/BandEaR_Discover_live_artists" target="_blank">
-                    <i class="fab fa-github-square"></i>
-                </a>
-                <a href="https://chrisjmckeown.github.io/BandEaR_Discover_live_artists/" target="_blank"><img src="images/BandEaR.png" alt="Band Ear webpage"></a>
-            </div>
-            <div>
-                <p>Horiseon SEO</p>
-                <a href="https://github.com/smcheah/Horiseon-SEOWebsite" target="_blank">
-                    <i class="fab fa-github-square"></i>
-                </a>
-                <a href="https://smcheah.github.io/Horiseon-SEOWebsite/" target="_blank"><img src="images/horiseon-SEO.gif" alt="Horiseon SEO website"></a>
-            </div>
-            <div>
-                <p>Password Generator</p>
-                <a href="https://github.com/smcheah/Password-Generator" target="_blank">
-                    <i class="fab fa-github-square"></i>
-                </a>
-                <a href="https://smcheah.github.io/Password-Generator/" target="_blank"><img src="images/password-generator.gif" alt="Password generator website"></a>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/bird-facts.gif" alt="Bird facts website">
+
+            <div class="content">
+                <div class="heading">
+                    <h2>Bird Facts</h2>
+                    <a href="https://github.com/smcheah/project0" class="fab fa-github-square" target="_blank"></a>
+                </div>
+
+                <p>Last Updated: //</p>
+                <a href="product-description">Overview</a>
+                <a href="https://smcheah.github.io/project0/birds.html" target="_blank">site link</a>
             </div>
         </div>
     </main>
@@ -89,8 +76,6 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c0b8f5d665.js" crossorigin="anonymous"></script>
 </body>
 
