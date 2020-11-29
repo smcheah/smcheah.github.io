@@ -5,84 +5,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simone Cheah</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <!-- navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand mt-1 ml-4" href="#">Simone Cheah</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-                <a class="nav-link mr-3 mt-1 ml-4 active" href="#">About</a>
-                <a class="nav-link mr-3 mt-1 ml-4" href="gallery.html">Portfolio</a>
-                <a class="nav-link mr-4 mt-1 ml-4" href="#contact-me">Contact Me</a>
+    <header>
+        <!-- navigation bar -->
+        <nav id="page-top">
+            <div class="nav-items">
+                <a href="#" class="fas fa-igloo home"></a>
+                <a href="#about-me">About</a>
+                <a href="#contact-me">Contact Me</a>
+                <a href="gallery.html">View Gallery</a>
+                <button class="fas fa-bars ham"></button>
             </div>
-        </div>
-    </nav>
+        </nav>
+
+        <ul class="letter">
+            <li>S</li>
+            <li>I</li>
+            <li>M</li>
+            <li>O</li>
+            <li>N</li>
+            <li>E</li>
+            <!-- <li class="bg"></li> -->
+        </ul>
+    </header>
 
     <!-- About Me -->
-    <main class="index">
+    <main id="about-me">
         <h1>About Me</h1>
-        <hr>
-        <div>
+        <div class="main-content">
             <img src="images/portrait.jpg" alt="Simone Cheah portrait">
-            <div class="content">
+            <div class="main-text">
                 <p>
-                    Recent Computer Science graduate, majoring in robotics and cyber-physical computing with interests in IoT, Robotics and Web
+                    Computer Science graduate, majoring in Robotics and Cyber-physical computing with interests in IoT, Robotics and Web
                     Development looking for new opportunities for a career in tech.
                 </p>
                 <p>
                     Experienced working in team projects involving agile methodologies to create programs on embedded systems such as the Raspberry Pi and Arduino.
                 </p>
                 <p>
-                    Currently doing a full stack web development bootcamp as I wanted to learn a bit more about the trending technologies that are used in production today and its actually been quite a bit of fun because its so visual.
+                    Currently doing a full stack web development bootcamp as I wanted to learn a bit more about the trending technologies that are used in production today.
                 </p>
                 <p>
-                    I really enjoy using technology creatively, mainly to find new ways to solve problems but currently, I’d like to just be able to expand my skills and develop my learning a bit more. There are so many directions you could take in technology and I’m pretty curious to find out more about it.
+                    I really enjoy using technology creatively, mainly to find new ways to solve problems but currently, I’d like to just be able to expand my skills and develop my learning a bit more. There are so many directions you could take in technology and I’m pretty curious to find out more about them.
                 </p>
             </div>
-            
         </div>
-        <hr>
-        <section class="profile-links">
-            <a href="https://github.com/smcheah" target="_blank">
-                <i class="fab fa-github-square"></i>
-                <p>github</p>
-            </a>
-            <a href="https://www.linkedin.com/in/simone-cheah-13607215b/" target="_blank">
-                <i class="fab fa-linkedin"></i>
-                <p>linkedin</p>
-            </a>
-            <a href="mailto:simone_cheah@hotmail.com" target="_blank">
-                <i class="fas fa-envelope"></i>
-                <p>email</p>
-            </a>
-            <a href="tel:+61405525068" target="_blank">
-                <i class="fas fa-phone-square"></i>
-                <p>mobile</p>
-            </a>
-            <a href="https://drive.google.com/file/d/1x5of5sr_nalQ4RfwGRQ5z2KINPeC0ngq/view?usp=sharing" target="_blank">
-                <i class="fas fa-file"></i>
-                <p>resume</p>
-            </a>
-        </section>
     </main>
 
+    <!-- Contact form -->
+    <section id="contact-me">
+        <h1>Contact Me</h1>
+        <form>
+            <label for="Name">Name</label>
+            <input type="text" id="Name" placeholder="Name">
+            <label for="Email">Email</label>
+            <input type="text" id="Email" placeholder="Email">
+            <label for="Message">Message</label>
+            <textarea id="Message" rows="6" placeholder="Please enter your query here"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <!-- links -->
+        <aside class="profile-links">
+            <a href="https://github.com/smcheah" target="_blank" class="fab fa-github-square">
+                <p>github</p>
+            </a>
+            <a href="https://www.linkedin.com/in/simone-cheah-13607215b/" target="_blank" class="fab fa-linkedin">
+                <p>linkedin</p>
+            </a>
+            <a href="mailto:simone_cheah@hotmail.com" target="_blank" class="fas fa-envelope">
+                <p>email</p>
+            </a>
+            <a href="tel:+61405525068" target="_blank" class="fas fa-phone-square">
+                <p>mobile</p>
+            </a>
+            <a href="https://drive.google.com/file/d/1x5of5sr_nalQ4RfwGRQ5z2KINPeC0ngq/view?usp=sharing" target="_blank" class="fas fa-file">
+                <p>resume</p>
+            </a>
+        </aside>
+    </section>
+
+
+
+    <!-- footer -->
     <div class="decor"></div>
     <footer>
         <div>
             Simone Cheah &copy; Copyright 2020
+            <a href="#page-top" class="fas fa-hand-point-up"></a>
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c0b8f5d665.js" crossorigin="anonymous"></script>
 </body>
 
