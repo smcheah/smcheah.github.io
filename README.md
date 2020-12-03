@@ -1,4 +1,4 @@
-# Simone's Portfolio ![GitHub top language](https://img.shields.io/github/languages/top/smcheah/smcheah.github.io)
+# Simone's Portfolio ![GitHub top language](https://img.shields.io/github/languages/top/smcheah/smcheah.github.io) [![CodeFactor](https://www.codefactor.io/repository/github/smcheah/smcheah.github.io/badge)](https://www.codefactor.io/repository/github/smcheah/smcheah.github.io)
 
 ![](https://media.giphy.com/media/RBlFKkJU5ENRk4nmbB/giphy.gif)
 
@@ -13,7 +13,7 @@ This is a portfolio of the projects I've built up and contributed to, that I'd l
 - [License](#license-)
 - [Got questions?](#got-questions-thinking)
 
-## Deployed site link 🔗
+## Deployed site link :link:
 
 https://smcheah.github.io/
 
