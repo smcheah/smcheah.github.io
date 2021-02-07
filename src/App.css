@@ -1,0 +1,285 @@
+/* font-family */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600;800&display=swap");
+
+:root {
+	--red-highlight: #f08080;
+	--blue-background: #a8dadc;
+	--light-blue: #d4eded;
+	--dark-blue: #457b9d;
+}
+body,
+html {
+	display: flex;
+	background-image: url(./images/ripples.png);
+	font-family: "Baloo Tamma 2";
+	flex-direction: column;
+}
+
+/* nav */
+.ham {
+	background-color: transparent;
+	border: none;
+	color: white;
+	padding: 30px;
+	font-size: 20px;
+}
+nav {
+	grid-area: nav;
+	flex: 0 1 auto;
+}
+.nav-items {
+	display: flex;
+	justify-content: space-around;
+	max-width: 1500px;
+	margin: 0 auto;
+}
+nav a {
+	padding: 30px;
+	font-weight: 600;
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+}
+nav .home {
+	margin-right: 40%;
+	color: var(--red-highlight);
+}
+
+
+/* footer */
+footer {
+	flex: 0 1 auto;
+	color: white;
+	text-align: center;
+	background-color: var(--dark-blue);
+	padding: 15px 0 20px;
+}
+.decor {
+	flex: 0 1 auto;
+	background-color: var(--red-highlight);
+	padding: 5px;
+}
+
+/* index.html */
+/* header */
+header {
+    flex: 1 0 auto;
+	height: 100vh;
+	background-color: black;
+	
+}
+header ul {
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 10%;
+}
+header li {
+	list-style-type: none;
+	font-size: 150px;
+	padding: 33vh 2%;
+}
+/* header .letter li:nth-child(1):hover ~ header{
+	background-color: #f08080;
+	// implement with js
+} */
+
+
+/* main content */
+#about-me {
+	display: flex;
+	flex-direction: column;
+	flex: 1 0 auto;
+	background-color: var(--blue-background);
+	margin: 5% auto;
+	border-radius: 10px;
+	padding: 3%;
+	max-width: 1400px;
+	justify-self: center;
+}
+#about-me h1 {
+	font-size: 40px;
+	width: max-content;
+}
+#about-me p {
+	font-size: 20px;
+}
+#about-me h1,
+#about-me p {
+	background-color: var(--light-blue);
+	padding: 5px 10px;
+	border-radius: 10px;
+	margin: 10px;
+}
+#about-me .main-content {
+	display: grid;
+	grid-template-areas: "img""main-text";
+}
+#about-me .main-text {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	grid-area: main-text;
+	max-width: 600px;
+	margin: 2%;
+}
+#about-me .main-content img {
+	display: flex;
+	align-self: center;
+	justify-self: center;
+	grid-area: img;
+	border-radius: 10px;
+	margin: 5% 5% 5% 0;
+	max-width: 90%;
+	object-fit: cover;
+}
+
+/* contact form */
+#contact-me {
+	background-color: lightgray;
+	display: grid;
+	grid-template-areas: 
+		". heading 	aside ."
+		". form 	aside ."
+		". form 	aside .";
+	grid-template-columns: 20% 50% 10% 20%;
+	/* height: 60vh; */
+}
+#contact-me h1 {
+	grid-area: heading;
+	background-color: var(--red-highlight);
+	width: max-content;
+	justify-self: center;
+	align-self: flex-end;
+	margin-top: 10%;
+	padding: 5px 10px;
+	border-radius: 3px;
+}
+#contact-me form {
+	grid-area: form;
+	align-self: flex-start;
+	justify-self: center;
+	margin-bottom: 10%;
+}
+#contact-me form > * {
+	margin: 2%;
+	border: none;
+	border-radius: 3px;
+}
+#contact-me form > label {
+	margin-bottom: 0;
+}
+#contact-me form > input,
+#contact-me form > textarea {
+	padding: 5px;
+}
+#contact-me form button {
+	width: max-content;
+	margin: 0 auto;
+	padding: 5px 10px;
+}
+#contact-me form,
+#contact-me aside {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 700px;
+}
+
+/* links */
+#contact-me aside {
+	grid-area: aside;
+	align-self: center;
+	text-align: center;
+	margin-top: 30px;
+}
+#contact-me aside a {
+	color: black;
+	text-decoration: none;
+	margin: 10%;
+	font-size: 25px;
+}
+#contact-me aside a:hover {
+	color: var(--dark-blue);
+}
+#contact-me aside p {
+	font-family: "Baloo Tamma 2";
+	font-weight: 800;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+
+/* gallery.html */
+.gallery nav a {
+	color: var(--red-highlight);
+}
+.gallery nav .ham {
+	color: black;
+}
+.gallery {
+	display: flex;
+	flex-direction: column;
+}
+.gallery-item {
+	flex: 1 0 auto;
+	width: 100%;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 0 1fr 0;
+	
+	margin-bottom: 2%;
+	overflow: hidden;
+}
+.gallery-item img {
+	grid-row: 1 / 2;
+	grid-column: 1 / 4;
+	width: 100%;
+	max-height: 400px;
+	object-fit: cover;
+	filter: blur(5px) brightness(0.45);
+}
+.gallery-item .content {
+	grid-row: 1 / 2;
+	grid-column: 2 / 3;
+	z-index: 2;
+	margin: 0 0 3% 3%;
+	display: flex;
+	flex-direction: column;
+	align-self: flex-end;
+	color: white;
+}
+.gallery-item .heading {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.gallery-item .heading a {
+	font-size: 20px;
+	padding: 1%;
+	padding-bottom: 1.5%;
+	text-decoration: none;
+}
+.gallery-item a {
+	color: white;
+}
+.gallery-item .heading a:hover,
+.gallery-item a:hover {
+	color: var(--red-highlight);
+}
+
+
+@media screen and (min-width: 400px) {
+	#about-me .main-content img {
+		margin: 5%;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	#about-me .main-content {
+		grid-template-areas: "img main-text";
+		max-height: 700px;
+	}
+	
+}
+
