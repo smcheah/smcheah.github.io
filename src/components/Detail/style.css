@@ -1,0 +1,45 @@
+.modal-full {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80vw;
+    max-width: 1200px;
+	height: 80vh;
+    max-height: 700px;
+	z-index: 50;
+	padding: 3%;
+	overflow: auto;
+    color: black;
+	background-color: white;
+}
+
+.header-links {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.header-links div {
+    padding: 5px;
+}
+.header-links .fa-times {
+    font-size: 20px;
+}
+.header-links a:hover {
+    color: coral;
+}
+
+.modal-content {
+    
+}
+
+.modal-bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100%;
+	z-index: 20;
+	background-color: rgba(0, 0, 0, 0.603);
+}
