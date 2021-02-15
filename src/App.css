@@ -49,15 +49,33 @@ nav .home {
 /* footer */
 footer {
 	flex: 0 1 auto;
+    display: block;
 	color: white;
 	text-align: center;
 	background-color: var(--dark-blue);
-	padding: 15px 0 20px;
+	padding: 5px;
 }
 .decor {
 	flex: 0 1 auto;
 	background-color: var(--red-highlight);
 	padding: 5px;
+}
+.copyright {
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+}
+.copyright .company {
+    margin: 0;
+}
+.copyright .page-top {
+    position: absolute;
+    right: 50px;
+    color: white;
+    text-decoration: none;
+}
+.copyright .page-top:hover {
+    color: var(--red-highlight);
 }
 
 /* index.html */
