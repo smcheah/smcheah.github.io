@@ -53,7 +53,7 @@ const GalleryPage = () => {
                     </div>
 
                     <p>Last Updated: 08/11/2020</p>
-                    <Link to={ `${url}/burger-restaurant` }>Development Overview</Link>
+                    <Link to={ `${url}/burger-restaurant` }>More Information</Link>
                     <a href="https://thawing-cliffs-82345.herokuapp.com/" target="_blank">Site link</a>
                 </div>
             </div>
@@ -68,7 +68,7 @@ const GalleryPage = () => {
                     </div>
 
                     <p>Last Updated: 22/11/2020</p>
-                    <Link to={ `${url}/meal-budgeter` }>Development Overview</Link>
+                    <Link to={ `${url}/meal-budgeter` }>More Information</Link>
                     <a href="https://vast-crag-85624.herokuapp.com/" target="_blank">Site link</a>
                 </div>
             </div>
@@ -83,7 +83,7 @@ const GalleryPage = () => {
                     </div>
 
                     <p>Last Updated: 11/10/2020</p>
-                    <Link to={ `${url}/team-summary` }>Development Overview</Link>
+                    <Link to={ `${url}/team-summary` }>More Information</Link>
                     <p>This application works in the terminal</p>
                 </div>
             </div>
@@ -98,7 +98,7 @@ const GalleryPage = () => {
                     </div>
 
                     <p>Last Updated: 20/09/2020</p>
-                    <Link to={ `${url}/BandEaR` }>Development Overview</Link>
+                    <Link to={ `${url}/BandEaR` }>More Information</Link>
                     <a href="https://chrisjmckeown.github.io/BandEaR_Discover_live_artists/" target="_blank">Site link</a>
                 </div>
             </div>
@@ -113,7 +113,7 @@ const GalleryPage = () => {
                     </div>
 
                     <p>Last Updated: 27/09/2020</p>
-                    <Link to={ `${url}/code-quiz` }>Development Overview</Link>
+                    <Link to={ `${url}/code-quiz` }>More Information</Link>
                     <a href="https://smcheah.github.io/Code-Quiz/" target="_blank">Site link</a>
                 </div>
             </div>
@@ -128,7 +128,7 @@ const GalleryPage = () => {
                     </div>
 
                     <p>Last Updated: 06/09/2020</p>
-                    <Link to={ `${url}/work-planner` }>Development Overview</Link>
+                    <Link to={ `${url}/work-planner` }>More Information</Link>
                     <a href="https://smcheah.github.io/Work-Planner/" target="_blank">Site link</a>
                 </div>
             </div>
@@ -143,7 +143,7 @@ const GalleryPage = () => {
                     </div>
 
                     <p>Last Updated: 13/09/2020</p>
-                    <Link to={ `${url}/weather-dashboard` }>Development Overview</Link>
+                    <Link to={ `${url}/weather-dashboard` }>More Information</Link>
                     <a href="https://smcheah.github.io/Weather-Dashboard/" target="_blank">Site link</a>
                 </div>
             </div>
@@ -158,7 +158,7 @@ const GalleryPage = () => {
                     </div>
 
                     <p>Last Updated: 03/11/2019</p>
-                    <Link to={ `${url}/bird-facts` }>Development Overview</Link>
+                    <Link to={ `${url}/bird-facts` }>More Information</Link>
                     <a href="https://smcheah.github.io/project0/birds.html" target="_blank">site link</a>
                 </div>
             </div>
