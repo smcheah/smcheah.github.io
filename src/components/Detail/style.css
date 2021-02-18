@@ -30,8 +30,12 @@
     color: coral;
 }
 
-.modal-content {
-    
+.modal-content img {
+    width: 100%;
+}
+.modal-content .imagelist {
+    list-style-type: none;
+
 }
 
 .modal-bg {
