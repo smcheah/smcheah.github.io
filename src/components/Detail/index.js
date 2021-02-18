@@ -10,7 +10,11 @@ const Detail = () => {
     let { detail } = useParams();
     const { title, lastUpdated, description, planning, wireframeImgs, prototypeImgs, issues, siteImgs, siteLink } = content[detail];
 
-    // console.log(title, lastUpdated, description, planning, wireframeImgs, prototypeImgs, issues, siteImgs, siteLink);
+    const designHeader = () => {
+        if (planning.length > 0 || wireframeImgs.length > 0 || prototypeImgs.length > 0) {
+            return (<h3>Design process</h3>);
+        } return null;
+    }
 
     return <div>
         <div className="modal-bg"></div>
@@ -30,34 +34,52 @@ const Detail = () => {
                     <p>last updated: { lastUpdated }</p>
                     <h3>Description</h3>
                     <p>{ description }</p>
-                    <h3>Design process</h3>
-                    <h4>Planning / Market research</h4>
-                    <p>{ planning }</p>
-                    <h4>Wireframes</h4>
-                    <div className="horizontal-scroll">
-                        <ul>
-                            <ImageList props={ wireframeImgs } />
-                        </ul>
-                    </div>
 
-                    <h4>high fidelity prototype / Mock up</h4>
-                    <div className="horizontal-scroll">
-                        <ul>
-                            <ImageList props={ prototypeImgs } />
-                        </ul>
-                    </div>
+                    { designHeader() }
 
-                    <h3>Issues / Future improvements</h3>
-                    <ul>
-                        <List props={ issues } />
-                    </ul>
-                    <h3>Site images</h3>
-                    <div>
+                    { planning.length > 0 ? (<>
+                        <h4>Planning / Market research</h4>
+                        <p>{ planning }</p>
+                    </>
+                    ) : null }
+
+                    { wireframeImgs.length > 0 ? (<>
+                        <h4>Wireframes</h4>
+                        <div className="horizontal-scroll">
+                            <ul className="imagelist">
+                                <ImageList props={ wireframeImgs } />
+                            </ul>
+                        </div>
+                    </>) : null }
+
+                    { prototypeImgs.length > 0 ? (<>
+                        <h4>Prototype / Mock up</h4>
+                        <div className="horizontal-scroll">
+                            <ul className="imagelist">
+                                <ImageList props={ prototypeImgs } />
+                            </ul>
+                        </div>
+                    </>) : null }
+
+                    { issues.length > 0 ? (<>
+                        <h3>Issues / Future improvements</h3>
                         <ul>
-                            <ImageList props={ siteImgs } />
+                            <List props={ issues } />
                         </ul>
-                    </div>
-                    <h3><Link to={ siteLink }>view site</Link></h3>
+                    </>) : null }
+
+                    { siteImgs.length > 0 ? (<>
+                        <h3>Site images</h3>
+                        <div>
+                            <ul className="imagelist">
+                                <ImageList props={ siteImgs } />
+                            </ul>
+                        </div>
+                    </>) : null }
+
+                    { siteLink.length > 0 ? (
+                        <h3><Link to={ siteLink }>view site</Link></h3>
+                    ) : null }
                 </div>
             </div>
         </div>
