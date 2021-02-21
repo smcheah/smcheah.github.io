@@ -55,7 +55,7 @@ const DevDetails = {
         wireframeImgs: [],
         prototypeImgs: [],
         issues: [],
-        siteImgs: [],
+        siteImgs: ['https://camo.githubusercontent.com/9cee8fbbffe273bf38728c9ce0428da2f29bc26af4fc1a149d334be1788dd166/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f396b636d3876527850396a6f4959684e67442f67697068792e676966', 'https://camo.githubusercontent.com/8eb400b78ab295b02e22d32708820726689534088e0f68b211c414449b47bca0/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f7647554d664876344262613550704943384d2f67697068792e676966'],
         siteLink: ''
     },
     "BandEaR": {
@@ -73,51 +73,53 @@ const DevDetails = {
     },
     "code-quiz": {
         title: 'Code Quiz',
-        lastUpdated: '',
-        description: '',
+        lastUpdated: '27/09/2020',
+        description: 'A timed code quiz with multiple-choice questions on JavaScript fundamentals',
         planning: '',
         wireframeImgs: [],
         prototypeImgs: [],
         issues: [],
-        siteImgs: [],
-        siteLink: ''
-    },
-    "work-planner": {
-        title: 'Work Planner',
-        lastUpdated: '',
-        description: '',
-        planning: '',
-        wireframeImgs: [],
-        prototypeImgs: [],
-        issues: [],
-        siteImgs: [],
-        siteLink: ''
+        siteImgs: ['https://camo.githubusercontent.com/3d853aa57f46dddcf060296b0388da9db2d3b20b469b5d5debd345d23acd1579/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f654e6467637471344673765550754f4243412f67697068792e676966'],
+        siteLink: 'smcheah.github.io/code-quiz/'
     },
     "weather-dashboard": {
         title: 'Weather Dashboard',
-        lastUpdated: '',
-        description: '',
+        lastUpdated: '13/09/2020',
+        description: 'A weather dashboard that displays the current weather, a 5 day forecast and a side bar search history for convenience.',
         planning: '',
         wireframeImgs: [
-            'https://imgur.com/6eIuz05'
+            'https://i.imgur.com/6eIuz05.png'
         ],
         prototypeImgs: [],
         issues: [],
-        siteImgs: [],
-        siteLink: ''
+        siteImgs: ['https://raw.githubusercontent.com/smcheah/Weather-Dashboard/master/demo-image.PNG'],
+        siteLink: 'https://smcheah.github.io/Weather-Dashboard/'
     },
     "bird-facts": {
-        title: '',
-        lastUpdated: '',
-        description: '',
+        title: 'Bird Facts',
+        lastUpdated: '03/11/2019',
+        description: "One page from my edition of CS50's Web Programming with Python and JavaScript: Project #0",
         planning: '',
         wireframeImgs: [],
         prototypeImgs: [],
         issues: [],
-        siteImgs: [],
-        siteLink: ''
+        siteImgs: ['https://camo.githubusercontent.com/cd74d9c1ae7c302fd1444a0fd00de40dd1b2101e76c2eec3e888227155734e24/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4361417a44375672374f447652377934704b2f67697068792e676966', 'https://camo.githubusercontent.com/198adc084b067ba26d78ec51cdd8bed6c629665c3e9d00269cf8815ba129e12c/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f454d34626446366c665753567a6134614b652f67697068792e676966'],
+        siteLink: 'https://smcheah.github.io/project0/birds.html'
     },
-
+    "employee-directory": {
+        title: 'Employee Directory',
+        lastUpdated: '4/1/2021',
+        description: "View a company's entire employee directory at once so that they have quick access to non-sensitive data about other employees",
+        planning: '',
+        wireframeImgs: ['https://i.imgur.com/czXRZHD.png'],
+        prototypeImgs: [],
+        issues: [
+            'should have better search functionality where each letter counts in a search for a full name',
+            'could have a backend instead of static data'
+        ],
+        siteImgs: ['https://raw.githubusercontent.com/smcheah/employee-directory/main/public/demo.PNG', 'https://i.imgur.com/jMuAAf1.png'],
+        siteLink: 'https://cocky-ride-50e407.netlify.app'
+    },
 };
 
 export default DevDetails;
