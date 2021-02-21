@@ -4,13 +4,13 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 80vw;
-    max-width: 1200px;
+	max-width: 1200px;
 	height: 80vh;
-    max-height: 700px;
+	max-height: 700px;
 	z-index: 50;
 	padding: 3%;
 	overflow: auto;
-    color: black;
+	color: black;
 	background-color: white;
 }
 
@@ -21,21 +21,20 @@
 	justify-content: space-between;
 }
 .header-links div {
-    padding: 5px;
+	padding: 5px;
 }
 .header-links .fa-times {
-    font-size: 20px;
+	font-size: 20px;
 }
 .header-links a:hover {
-    color: coral;
+	color: coral;
 }
 
 .modal-content img {
-    width: 100%;
+	width: 100%;
 }
 .modal-content .imagelist {
-    list-style-type: none;
-
+	list-style-type: none;
 }
 
 .modal-bg {
