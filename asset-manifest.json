@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.303a0905.chunk.css",
-    "main.js": "/static/js/main.ec3637ad.chunk.js",
-    "main.js.map": "/static/js/main.ec3637ad.chunk.js.map",
+    "main.css": "/static/css/main.90d9b834.chunk.css",
+    "main.js": "/static/js/main.3141da35.chunk.js",
+    "main.js.map": "/static/js/main.3141da35.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1992706e.js",
     "runtime-main.js.map": "/static/js/runtime-main.1992706e.js.map",
     "static/js/2.b1c54cfd.chunk.js": "/static/js/2.b1c54cfd.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.a5a83f7d.chunk.js": "/static/js/3.a5a83f7d.chunk.js",
     "static/js/3.a5a83f7d.chunk.js.map": "/static/js/3.a5a83f7d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.303a0905.chunk.css.map": "/static/css/main.303a0905.chunk.css.map",
+    "static/css/main.90d9b834.chunk.css.map": "/static/css/main.90d9b834.chunk.css.map",
     "static/js/2.b1c54cfd.chunk.js.LICENSE.txt": "/static/js/2.b1c54cfd.chunk.js.LICENSE.txt",
     "static/media/BandEaR.6781dc83.png": "/static/media/BandEaR.6781dc83.png",
     "static/media/bird-facts.789d7678.gif": "/static/media/bird-facts.789d7678.gif",
@@ -19,13 +19,12 @@
     "static/media/meal-budgeter.dc79e780.gif": "/static/media/meal-budgeter.dc79e780.gif",
     "static/media/portrait.245eec62.jpg": "/static/media/portrait.245eec62.jpg",
     "static/media/team-summary.0af3138c.gif": "/static/media/team-summary.0af3138c.gif",
-    "static/media/weather-dashboard.dcd0ae89.png": "/static/media/weather-dashboard.dcd0ae89.png",
-    "static/media/work-planner.3c3edbd6.gif": "/static/media/work-planner.3c3edbd6.gif"
+    "static/media/weather-dashboard.dcd0ae89.png": "/static/media/weather-dashboard.dcd0ae89.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1992706e.js",
     "static/js/2.b1c54cfd.chunk.js",
-    "static/css/main.303a0905.chunk.css",
-    "static/js/main.ec3637ad.chunk.js"
+    "static/css/main.90d9b834.chunk.css",
+    "static/js/main.3141da35.chunk.js"
   ]
 }
