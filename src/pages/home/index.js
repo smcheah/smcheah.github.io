@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Switch, Link, useRouteMatch, useParams 
 import Nav from "../../components/Nav";
 import Footer from "../../components/Footer";
 import Portfolio from "../../images/portrait.jpg";
-import ContactForm from "../../components/ContactForm"
+import ContactForm from "../../components/ContactForm";
 
 const HomePage = () => {
     return <div>
@@ -26,17 +26,18 @@ const HomePage = () => {
                 <img src={ Portfolio } alt="Simone Cheah portrait" />
                 <div className="main-text">
                     <p>
-                        Computer Science graduate, majoring in Robotics and Cyber-physical computing with interests in IoT, Robotics and Web
-                        Development looking for new opportunities for a career in tech.
+                        Full stack web developer with a Computer Science background educated at Deakin University and a recently earned certificate in full stack web development at Monash University.
                 </p>
                     <p>
-                        Experienced working in team projects involving agile methodologies to create programs on embedded systems such as the Raspberry Pi and Arduino.
+                        Skills in JavaScript, Python, HTML5, CSS and responsive web design, and proficiency in IoT, robotics and embedded systems including the Raspberry Pi, Arduino and ROS.
+
                 </p>
                     <p>
-                        Recently completed a course in full stack web development as I wanted to learn a bit more about the trending technologies that are used in production today.
+                        My involvement in the World Solar car challenge brought in a fresh perspective in low energy technology with the use of electronic paper and the Raspberry Pi 4 to build a modular car dash.
+
                 </p>
                     <p>
-                        I really enjoy using technology creatively, mainly to find new ways to solve problems but currently, I’d like to just be able to expand my skills and develop my learning a bit more. There are so many directions you could take in technology and I’m pretty curious to find out more about them.
+                        I am passionate about new ideas, problem solving and project development where teamwork, creativity and meticulous work ethic are my strengths. Positioned to leverage my skills in emerging technologies as part of a dedicated team to enhance the user experience on websites and other software platforms.
                 </p>
                 </div>
             </div>
