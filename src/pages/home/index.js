@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Switch, Link, useRouteMatch, useParams 
 import Nav from "../../components/Nav";
 import Footer from "../../components/Footer";
 import Portfolio from "../../images/portrait.jpg";
+import ContactForm from "../../components/ContactForm"
 
 const HomePage = () => {
     return <div>
@@ -43,16 +44,7 @@ const HomePage = () => {
 
         <section id="contact-me">
             <h1>Contact Me</h1>
-            <form>
-                <label htmlFor="Name">Name</label>
-                <input type="text" id="Name" placeholder="Name" />
-                <label htmlFor="Email">Email</label>
-                <input type="text" id="Email" placeholder="Email" />
-                <label htmlFor="Message">Message</label>
-                <textarea id="Message" rows="6" placeholder="Please enter your query here"></textarea>
-
-                <button type="submit">Submit</button>
-            </form>
+            <ContactForm />
 
             <aside className="profile-links">
                 <a href="https://github.com/smcheah" target="_blank" className="fab fa-github-square">
